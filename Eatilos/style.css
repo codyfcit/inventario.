@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Estilos generales */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    background: url(../imagenes/bc.jpg) no-repeat center top;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 0px;
+}
+.container {
+    /* Agregar un recuadro alrededor del contenido */
+    border: 2px solid #720a32; /* Ancho y color del borde */
+    padding: 80px; /* Espacio interno para separar el contenido del borde */
+    margin-top: 80px;
+    border-radius: 100px; /* Opcional: agregar esquinas redondeadas al recuadro */
+    background-color: rgba(241, 212, 223, 0.4);
+}
+
+  
+
+h1 {
+    color: #640101;    
+}
+
+
+form {
+    margin-top: 50px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+}
+
+
+input[type="text"],
+input[type="number"] {
+    padding: 6px;
+    width: 200px;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+}
+
+input[type="submit"] {
+    padding: 6px 12px;
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+div:hover {
+    transform: translateY(0px) rotateY(-20deg) scale(1);
+  }
+  
+  .navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
+}
+
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 2rem;
+    }
+}

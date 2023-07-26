@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+/* Estilos generales */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    background: url(../imagenes/pexels-ron-lach-8275018.jpg) no-repeat center top;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin-top: 0px;
+}
+.container {
+    /* Agregar un recuadro alrededor del contenido */
+    border: 2px solid #012905; /* Ancho y color del borde */
+    padding: 80px; /* Espacio interno para separar el contenido del borde */
+    margin-top: 80px;
+    border-radius: 100px; /* Opcional: agregar esquinas redondeadas al recuadro */
+    background-color: rgb(148, 204, 181,0.4);
+}
+
+  
+
+h1 {
+    color: #791e1e;    
+}
+
+
+form {
+    margin-top: 50px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    margin-right: 10px;
+}
+
+
+
+
+div:hover {
+    transform: translateY(0px) rotateY(-20deg) scale(1);
+  }
+  
+  .navegacion__enlace {
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
+}
+
+@media (min-width: 768px) {
+    .navegacion {
+        display: flex;
+        gap: 2rem;
+    }
+}

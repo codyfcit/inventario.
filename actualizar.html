@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Eatilos/actualizar.css">
+
+    <title>Actualizar</title>
+</head>
+<body>
+    <form action="actualizar.php" method="post">
+        <div>
+            <nav class="navegacion">
+                <a href="conexion.html" class="navegacion__enlace">Registro</a>
+                <a href="eliminar.html" class="navegacion__enlace">Eliminar</a>
+                <a href="consulta.php" class="navegacion__enlace">Consulta</a>
+            </nav>
+        </div>
+   
+
+        <div class="container">
+            <h1 class="infinity-outlineicon-">ACTUALIZACION DE DATOS</h1>
+       
+       
+        <div>
+            <label>Id a actualizar</label>
+        <input type="number" name="id">
+        </div>
+        <div>
+            <label>Nombre:</label>
+         <input type="text" name="nombre" >
+         </div>
+         <div>
+             <label>Talla:</label>
+          <input type="text" name="talla" >
+          </div>
+ 
+          <div>
+             <label>Precio:</label>
+             <input type="number" name="precio" step="0.01" >
+          </div>
+ 
+          <div>
+             <label >Cantidad:</label>
+          <input type="number" name="cantidad" >
+          </div>
+ 
+         <div>
+            <label>Descripción:</label>
+         <input type="text" name="descripcion" >
+         </div>
+ 
+        <div>
+            <input type="submit" value="actualizar"> 
+        </div>
+                </form>
+            </div>
+            </body>
+    </form>
+    
+</body>
+</html>

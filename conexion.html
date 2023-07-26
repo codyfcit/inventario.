@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>REGISTRO DE PRODUCTOS</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="Eatilos/style.css">
+    
+</head>
+<body>
+   
+
+    <form action="conexion.php" method="POST">
+        <div>
+            <nav class="navegacion">
+                <a href="actualizar.html" class="navegacion__enlace">Actualizar</a>
+                <a href="eliminar.html" class="navegacion__enlace">Eliminar</a>
+                <a href="consulta.php" class="navegacion__enlace">Consulta</a>
+            </nav>
+        </div>
+   
+        <div class="container">
+            <h1>INGRESA LOS DATOS DEL PRODUCTO</h1>
+        
+        <div>
+            <label>Nombre:</label>
+            <input type="text" name="nombre">
+        </div>
+        <div>
+            <label>Talla:</label>
+            <input type="text" name="talla">
+        </div>
+
+        <div>
+            <label>Precio:</label>
+            <input type="number" name="precio" step="0.01">
+        </div>
+
+        <div>
+            <label>Cantidad:</label>
+            <input type="number" name="cantidad">
+        </div>
+
+        <div>
+            <label>Descripción:</label>
+            <input type="text" name="descripcion">
+        </div>
+
+        <div>
+            <input type="submit" value="Registrar">
+        </div>
+    </div>
+    </form>
+</body>
+</html>
